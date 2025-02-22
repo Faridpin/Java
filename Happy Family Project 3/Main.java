@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        String[] habits = {"sleeping", "eating", "running"};
-        Pet pet = new Pet(Species.CAT, "Cinnamon", 1, 65, habits);
+        String[] habits = {"eating", "running", "sleeping"};
+        Pet pet = new Pet(Species.DOG, "Cinnamon", 1, 65, habits);
 
         String[][] activities = {{DayOfWeek.SATURDAY.getName(),DayOfWeek.SUNDAY.getName()},{"Study"}};
 
